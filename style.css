@@ -1,0 +1,24 @@
+/* Custom Active State Graphics Override Engines */
+.step-active .timeline-icon {
+    background-color: #4c116f !important;
+    border-color: #c084fc !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 14px rgba(192, 132, 252, 0.6) !important;
+    transform: scale(1.1);
+}
+
+.step-active .timeline-text {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+/* Fluid UI Transitions */
+.hidden {
+    display: none !important;
+}
+
+.show-dashboard {
+    display: block !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
